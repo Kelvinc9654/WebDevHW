@@ -1,0 +1,331 @@
+
+.header-container {
+    display: flex;
+    align-items: center;
+    background-color: #1A234B;
+    height: 80px;
+    border-bottom: 1px solid #C6A875;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container p{
+    margin-left: 5px;
+}
+
+.logo-container {
+    height: 50px;
+    width: 50px;
+}
+
+.logo-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.navigation-container {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.order-button {
+    border: none;
+    border-radius: 15px;
+    padding: 12px 10px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.title-container,
+.navigation-container {
+    color: white;
+    font-size: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;;
+    margin: 10px;
+}
+
+.food-image-container {
+    height: 100%;
+    width: 70%;
+}
+
+.food-image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    background-color: lightgray;
+}
+
+.slider-container button {
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    background-color: #1A234B;
+    height: 80px;
+    border-bottom: 1px solid #C6A875;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container p{
+    margin-left: 5px;
+}
+
+.logo-container {
+    height: 50px;
+    width: 50px;
+}
+
+.logo-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.navigation-container {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.order-button {
+    border: none;
+    border-radius: 15px;
+    padding: 12px 10px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.title-container,
+.navigation-container {
+    color: white;
+    font-size: 20px;
+}
+
+/* CSS for the banner */
+.hero-container {
+    width: 100%;
+}
+
+.banner-image-container img{
+    width: 100%;
+    height: 100%;
+}
+
+/* CSS for the about section */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+
+    padding: 5px;
+    font-family: sans-serif;
+}
+
+.about-container h2{
+    text-decoration: underline;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;;
+    margin: 10px;
+}
+
+.food-image-container {
+    height: 100%;
+    width: 70%;
+}
+
+.food-image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    background-color: lightgray;
+}
+
+.slider-container button {
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* CSS for the contact area */
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    background-color: rgb(110, 100, 100);
+    padding: 10px 20px;
+}
+
+.map-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.map-container img {
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.form-container {
+    width: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-size: 16px;
+    margin: 5px;
+}
+
+form input,
+form textarea {
+    border: none;
+    padding: 5px;
+    margin: 10px;
+}
+
+form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 20%;
+}
+/* Css for the Footer */
+.footer-container {
+    border-top: 1px solid black;
+    margin-top: 5px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.social-media-links{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.business-hours-container,
+.social-media-container {
+    text-align: center;
+    width: 40%;;
+}
+
+.business-hours-container h2,
+.social-media-container {
+    text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+    .contact-container,
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
